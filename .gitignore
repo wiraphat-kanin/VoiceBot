@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C/C++ build artifacts & PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Data folder (Excluded per user request)
+data/*
+!data/.gitkeep
+
+# AI Model Caches (Offline weights > 100MB exceed GitHub file limit)
+models_cache/*
+!models_cache/.gitkeep
+
+# Temporary runtime files & logs
+assets/temp_audio/*
+!assets/temp_audio/.gitkeep
+*.log
